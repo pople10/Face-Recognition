@@ -1,0 +1,39 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#V1B{
+       -fx-background-image: url("b-01.png");
+       -fx-background-repeat: none;   
+       -fx-background-size: 400 600;
+}
+
+.radio-button .radio {
+    -fx-border-width:.7px;
+    -fx-border-color: #5111ba;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-border-radius:20px;
+    -fx-padding: 3px;
+    -fx-text-fill: #5111ba;
+}
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-text-fill: #5111ba;
+}
+.radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+	
+    -fx-background-radius: 20px;
+    -fx-padding: 6px;
+}
